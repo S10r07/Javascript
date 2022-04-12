@@ -1,0 +1,17 @@
+Los comentarios son lista de codigos que JavaScript ignorara intencionalmente.
+Los comentarios son una gran manera de dejar notas para ti mismo y a otras personas que mas tarde tengan que averiguar que hace ese codigos.
+
+hay 2 maneras de escribir codigo en JavaScript:
+
+Usar // le dira a JavaScript que ignore el resto del texto en la linea actual.
+Este es un comentario en linea:
+
+// this is an in-line comment.
+
+puedes hacer un comentario multilinea comenzando con /* y terminando con */.
+Este es un comentario multilinea:
+
+/* this is a multi-line Comment */
+
+**Nota:**A medida que programas, deberias añadir comentarios regularmente para aclarar el funcionamiento de las partes de tu codigo. 
+Un buen comentario puede ayudar a comunicar la intencion de tu codigo, tanto para otro como para tu yo futuro.
