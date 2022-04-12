@@ -1,0 +1,12 @@
+Tambien podemos dividir un numero entre otro.
+JavaScript utiliza el simbolo "/" para la division.
+
+Ejemplo:
+
+        const myVar = 16 / 2;
+
+"myVar" ahora tiene el valor 8;
+
+ACTIVIDAD: CAMBIA EL 0 PARA QUE EL quotient(cociente) sea igual a 2.
+
+        const quotient = 66 / 0;                                const quotient = 66 / 33;

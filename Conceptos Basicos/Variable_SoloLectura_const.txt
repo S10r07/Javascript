@@ -1,0 +1,29 @@
+La palabra clave "let" no es la unica manera nueva de declarar variables. En ES6, tu tambien puedes declarar variables usando la
+palabra clave "const".
+
+"const" tiene todas las caracteristicas increibles, que tiene let, con el bono aniadido de que las variables 
+declaradas usando "const" son de solo lectura. Son un valor constante, lo que significa que una vez que una 
+variable es asignada con const, no se puede reasignar:
+
+        const FAV_PET = "Cats";
+        FAV_PET = "Dog";               <---- Error
+
+La consola mostrara un error debido a la reasignacion del valor FAV_PET;
+
+Siempre debes nombrar variables que no quieras reasignar usando la palabra clave const. Esto ayuda cuando intentas 
+reasignar accidentalmente una variable que este destinada a permanecer constante.
+
+Nota: Es comun que los desarrolladores usen identificadores de variables en mayusculas para valores inmutables y 
+minusculas o camelCase para valores mutables(objetos y arreglos).
+
+ACTIVIDADES: 
+
+        - Cambia el código para que todas las variables se declaren con let o const. Usa let cuando quieras que 
+        la variable cambie y const cuando quieras que la variable permanezca constante. Además, renombra variables 
+        declaradas con const para adaptarse a las prácticas comunes.
+
+
+        var fCC = "freeCodeCamp"; // Cambia esta línea                 const FCC = "freeCodeCamp";
+        var fact = "is cool!"; // Cambia esta línea                    let fact = "is cool!";
+        fact = "is awesome!";
+        console.log(fCC, fact); // Cambia esta línea                   console.log(FCC, fact);

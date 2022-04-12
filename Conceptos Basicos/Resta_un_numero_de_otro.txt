@@ -1,0 +1,12 @@
+Tambien podemos restar un numero de otro.
+JavaScript utiliza el simbolo "-" para restar.
+
+Ejemplo:
+
+        const myVar = 12 - 6;
+
+"myVar" tendra el valor 6;
+
+ACTIVIDAD: CAMBIE EL 0 PARA QUE LA DIFERENCIA SEA 12.
+
+        const difference = 45 - 0;                                 const difference = 45 - 33;

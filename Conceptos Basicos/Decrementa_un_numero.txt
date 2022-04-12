@@ -1,0 +1,16 @@
+Puedes facilmente decrementar o disminuir una variabe por uno utilizando
+el operador --.
+
+i--;
+
+es el equivalente de
+
+i = i - 1;
+
+Nota: La linea se convierte en i--; eliminando la necesidad del signo igual.
+
+ACTIVIDAD: CAMBIE EL CODIGO PARA USAR EL OPERADOR "--" EN "myVar".
+
+let myVar = 1;
+myVar--;             // myVar = myVar - 1;
+console.log(myVar);

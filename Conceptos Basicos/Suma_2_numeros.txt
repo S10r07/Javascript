@@ -1,0 +1,14 @@
+"Number" (numero) es un tipo de datos en JavaScript que represeta datos numericos.
+Ahora intentemos sumar 2 numeros usando JavaScript.
+
+JavaScript utiliza el simbolo "+" como un operador de adicion cuando se coloca entre datos numeros.
+
+Ejemplo:
+
+        const myVar = 5 + 10;
+
+"myVar" ahora tiene el valor de 15;
+
+ACTIVIDAD: CAMBIE EL 0 PARA QUE LA SUMA SEA IGUAL A 20.
+
+        const sum = 10 + 0;                                 const sum = 10 + 10;
