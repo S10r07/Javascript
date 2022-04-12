@@ -1,0 +1,19 @@
+En JavaScript puedes almacenar un valor en una variable con el operador de asignacion (=).
+
+        myVariable = 5;
+
+Esto asigna el valor numerico (Number) 5 a myVariable.
+
+Si hay algunos calculos a la dercha del operador =, se realizan antes de que el valor se asigne a la 
+variable izquierda del operador.
+
+        var myVariable;
+        myVariable = 5;
+
+Primero, este codigo crea una variable llamada myVar. Luego, el codigo asigna 5 a my var.
+Ahora, si myVar aparece de nuevo en el codigo, el programa lo tratara como si fuera 5.
+
+ACTIVIDADES: ASIGNA EL VALOR 7 A LA VARIABLE A.
+
+        var a;
+        a = 7;

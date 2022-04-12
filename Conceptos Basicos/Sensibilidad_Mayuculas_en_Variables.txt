@@ -1,0 +1,29 @@
+En JavaScript todas las variables y nombres de funcion son sensibles a mayusculas y minusculas.
+Esto significa que la capitalizacion importa.
+
+"MYVAR" no es lo mismo que "MyVar" ni "myvar". Es posible tener multiples variables distintas
+con el mismo nombre pero con diferente capitalizacion. Se recomienda encarecidamente que por el
+bien de la claridad, no utilices esta funcionalidad de lenguaje.
+
+"Buena Practia".
+Escribe los nombres de las variables en JavaScript en camelCase. En camelCase, los nombres de las
+variables de multiples palabras tienen la primera palabra en minusculasy la primera letra de cada
+palabra posterior en mayusculas.
+
+Ejemplos:
+
+        - var someVariable;
+        - var anotherVariableName;
+        - var thisVariableNameIsLong;
+
+ACTIVIDAD: MODIFICA LAS DECLARACIONES Y ASIGNACIONES EXISTENTES PARA QUE SUS NOMBRES USEN CAMELSACE.
+
+    // Declaración de variables                       
+    var StUdLyCapVaR;                              var studlyCapVar;
+    var properCamelCase;                           var properCamelCase;
+    var TitleCaseOver;                             var titleCaseOver;
+
+    // Asignación de variables
+    STUDLYCAPVAR = 10;                             studlyCapVar = 10;
+    PRoperCAmelCAse = "A String";                  properCamelCase = "A String";
+    tITLEcASEoVER = 9000;                          titleCaseOver = 9000;

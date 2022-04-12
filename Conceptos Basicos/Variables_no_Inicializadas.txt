@@ -1,0 +1,16 @@
+Cuando las variables de JavaScript son declaradas, tienen un valor inicial "undefined"(indefinido).
+Si haces una operacion matematica en una variable "undefined", tu resultado sera "NaN", "Not a Number"
+(no es un numer). Si concatenas una cadena con una variable undefined, obetndras una cadena literal con
+valor "undefined".
+
+ACTIVIDAD: INICIALIZA LAS 3 VARIABLES a, b, c CON 5, 10, "I am a" RESPECTIVAMENTE QUE NO SEAN UNDEFINED.
+
+        // Cambia solo el código debajo de esta línea
+        var a = 5;
+        var b = 10;
+        var c = "I am a";
+        // Cambia solo el código encima de esta línea
+
+        a = a + 1;
+        b = b + 5;
+        c = c + " String!";
