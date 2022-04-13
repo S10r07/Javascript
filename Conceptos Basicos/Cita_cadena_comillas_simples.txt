@@ -1,0 +1,41 @@
+Los valores de cadena en JavaScript pueden escribirse con comillas simples
+o dobles, siempre y cuando comiencen y terminen con el mismo tipo de comillas.
+
+A diferencia de otros lenguajes de programacion, las comillas simples y 
+dobles funcionan igual en JavaScript.
+
+    const doubleQuotedString = "This is a String";
+    const singleQuotedString = 'This is also a String';
+
+La razon por la que puedes queres usar un tipo de comilla sobre otro es 
+si quieres usar ambos en una cadena. Esto puede suceder si quieres guardar 
+una conversacion en una cadena y tener la conversacion entre comillas. 
+Otro uso seria guardar una etiqueta <a> con varios atributos entre comillas, 
+todo dentro de una cadena.
+
+    const conversation = 'Finn exclaims to Jake, "Algebraic!"';
+
+Sin embargo, esto se convierte en un problema cuando es necesario utilizar 
+las comillas externas dentro de ella. Recuerda, una cadena tiene el mismo 
+tipo de comillas al principio y al final, Pero si tienes esa misma 
+comilla en alguna lugar del medio, la cadena se detendra antes de tiempo 
+y arrojara un error.
+
+    const goodStr = 'Jake asks Finn "Hey, let\'s go on an adventure?"';
+    const badStr = 'Finn responds, "Let's go!"'; <-- This will throw an error.
+
+En la cadena goodStr anterior, puedes usar ambas comillas de forma segura
+usando la barra invertida \ como un caracter de escape.
+
+ACTVIDAD:
+
+    - CAMBIA LA CADENA PROPORCIONADA A UNA CADENA CON COMILLAS SIMPLES AL 
+    PRINCIPIO Y AL FINAL Y SIN CARACTERES DE ESCAPE.
+
+    -AHORA MISMO LA ETIQUETA <a> EN LA CADENA USA COMILLAS DOBLES EN TODAS
+    PARTES. NECESITARAS COMBIAR LAS COMILLAS EXTERNAS A COMILLAS SIMPLES 
+    PARA PODER ELIMINAR LOS CARACTERES DE ESCAPE.
+
+    const myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+
+    const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';

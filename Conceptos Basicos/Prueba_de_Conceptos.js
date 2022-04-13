@@ -74,3 +74,57 @@ console.log(div);
 let myVar = 87;
 myVar++;             // myVar = myVar + 1;
 console.log(myVar);
+
+// DECIMALES
+// CAMBIA EL 0.0 PARA QUE EL PRODUCTO SEA IGUAL A 5.0.
+
+const product = 2.5 * 2.0;      //const product = 2.0 * 0.0;
+
+// CAMBIA EL 0.0 PARA QUE EL COCIENTE(quotient) sea igual a 2.2.
+
+const quotient = 4.4 / 2.0;     // const quotient = 0.0 / 2.0;
+
+// ESTABLECE "remainder" IGUAL AL RESTO 11 DIVIDIDO ENTRE 3 USANDO
+// EL OPERADOR DE RESTO(%).
+
+const remainder = 11 % 3;       // const remainder = 0;
+
+// CONVIERTE LAS ASIGNACIONES DE a, b, c PARA QUE UTILICEN EL OPERADOR +=
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;                        // a = a + 12;
+b += 9;                         // b = 9 + b;
+c += 7;                         // c = c + 7;
+
+// CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR -=
+
+let a = 11;
+let b = 9;
+let c = 3;
+
+a -= 6;                          // a = a - 6;
+b -= 15;                         // b = b - 15;
+c -= 1;                          // c = c - 1;
+
+// CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR *=
+
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *= 5;                           // a = a * 5;
+b *= 3;                           // b = 3 * b;
+c *= 10;                          // c = c * 10;
+
+// CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR /=
+
+let a = 48;
+let b = 108;
+let c = 33;
+
+a /= 12;                            // a = a / 12;
+b /= 4;                             // b = b / 4;
+c /= 11;                            // c = c / 11;
