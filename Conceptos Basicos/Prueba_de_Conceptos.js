@@ -91,40 +91,91 @@ const remainder = 11 % 3;       // const remainder = 0;
 
 // CONVIERTE LAS ASIGNACIONES DE a, b, c PARA QUE UTILICEN EL OPERADOR +=
 
-let a = 3;
-let b = 17;
-let c = 12;
+let d = 3;
+let e = 17;
+let f = 12;
 
-a += 12;                        // a = a + 12;
-b += 9;                         // b = 9 + b;
-c += 7;                         // c = c + 7;
+d += 12;                        // a = a + 12;
+e += 9;                         // b = 9 + b;
+f += 7;                         // c = c + 7;
 
 // CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR -=
 
-let a = 11;
-let b = 9;
-let c = 3;
+let g = 11;
+let h = 9;
+let i = 3;
 
-a -= 6;                          // a = a - 6;
-b -= 15;                         // b = b - 15;
-c -= 1;                          // c = c - 1;
+g -= 6;                          // a = a - 6;
+h -= 15;                         // b = b - 15;
+i -= 1;                          // c = c - 1;
 
 // CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR *=
 
-let a = 5;
-let b = 12;
-let c = 4.6;
+let j = 5;
+let k = 12;
+let l = 4.6;
 
-a *= 5;                           // a = a * 5;
-b *= 3;                           // b = 3 * b;
-c *= 10;                          // c = c * 10;
+j *= 5;                           // a = a * 5;
+k *= 3;                           // b = 3 * b;
+l *= 10;                          // c = c * 10;
 
 // CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR /=
 
-let a = 48;
-let b = 108;
-let c = 33;
+let m = 48;
+let n = 108;
+let o = 33;
 
-a /= 12;                            // a = a / 12;
-b /= 4;                             // b = b / 4;
-c /= 11;                            // c = c / 11;
+m /= 12;                           // a = a / 12;
+n /= 4;                            // b = b / 4;
+o /= 11;                           // c = c / 11;
+
+// USA LA PROPIEDAD ".length" PARA CONTAR EL NUMERO DE CARACTERES
+// EN LA VARIABLE "lastName" Y ASIGNARLA A "lastNameLength".
+
+// Configuración
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Cambia solo el código debajo de esta línea
+lastNameLength = lastName.length   //lastNameLength = lastName;
+
+// UTILIZA NOTACION DE CORCHETES PARA ENCONTRAR EL PRIMER CARACTER
+// EN LA VARIABLE "lastName" Y ASIGNALO A "firstLetterOfLastName".
+
+// Configuración
+let firstLetterOfLastName = "";
+const lastName2 = "Lovelace";
+
+// Cambia solo el código debajo de esta línea
+firstLetterOfLastName = lastName2[0]    // firstLetterOfLastName = lastName;
+
+// CORRIGE LA ASIGNACION DE myStr PARA QUE CONTENGA EL VALOR DE 
+// CADENA "Hello World" USANDO EL METODO MOSTRADO EN EL EJEMPLO ANTERIOR.
+
+// Configuración
+let myStr = "Jello World";
+myStr = "Hello World";              // myStr[0] = "H";
+
+// MODIFICA EL NUEVO ARREGLO myArray PARA QUE CONTENGA TANTO UNA CADENA
+// COMO UN NUMERO(EN ESE ORDEN).
+
+const myArray = ["Hola", 1];
+
+// CREA UN ARREGLO ANIDADO LLAMADO myArray.
+
+// Cambia solo el código debajo de esta línea
+const myArray2 = [["Hola", 1], ["Adios", 2]];
+
+// CREA UNA VARIABLE LLAMADA myData Y ESTABLECELA PARA QUE SEA IGUAL AL 
+// PRIMER VALOR DE myArray USANDO NOTACION DE CORCHETES.
+
+const myArray3 = [50, 60, 70];
+const myData = myArray3[0];
+
+// MODIFICA LOS DATOS ALMACENADOS EN EL INDICE 0 de myArray A UN VALOR DE 45.
+
+// Configuración
+const myArray4 = [18, 64, 99];
+
+// Cambia solo el código debajo de esta línea
+myArray4[0] = 45;

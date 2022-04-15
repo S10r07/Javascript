@@ -1,0 +1,28 @@
+En JavaScript, los valores de cadena(String) son inmutables, lo que
+significa que no pueden ser alterados una vez creados.
+
+Por ejemplo, el siguiente codigo:
+
+        let myStr = "Bob";
+        myStr[0] = "J";     <-- esto no funcionaria
+
+no puede cambiar el valor de myStr a Job, porque el contenido de myStr
+no puede ser alterado. Ten en cuenta que esto no significa que myStr 
+no puede cambiarse, solo que los caracteres individuales de una cadena 
+literal no pueden ser cambiados. La única forma de cambiar myStr sería 
+asignarla con una nueva cadena, como esta:
+    
+            let myStr = "Bob";
+            myStr = "Job";
+
+ACTIVIDAD:
+
+    - CORRIGE LA ASIGNACION DE myStr PARA QUE CONTENGA EL VALOR DE 
+    CADENA "Hello World" USANDO EL METODO MOSTRADO EN EL EJEMPLO ANTERIOR.
+
+    // Configuración
+    let myStr = "Jello World";
+
+    // Cambia solo el código debajo de esta línea
+    myStr[0] = "H"; // Cambia esta línea
+    // Cambia solo el código encima de esta línea
