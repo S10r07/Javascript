@@ -1,0 +1,82 @@
+En JavaScript, podemos divir nuestro codigo en partes reutilizables llamadas
+funciones.
+
+Este ejemplo de una funcion:
+
+    function functionName() {
+        console.log("Hello World");
+    }
+
+Puedes llamar o invocar esta funcion usando su nombre seguido por parentesis, 
+asi: "functionName();". Cada vez que se llame la funcion se imprimira el 
+mensaje "Hello World" en la console de desarrollo. Todo codigo entre las llaves
+se ejecutara cuando se llame la funcion.
+
+ACTIVIDAD:
+
+    1. CREA UNA FUNCION LLAMADA "reusableFunction" QUE IMPRIMA "Hello World"
+    2. LLAMA A LA FUNCION "reusableFunction".
+
+    function reusableFunction(){
+        console.log("Hello World");
+    }
+
+    reusableFunction();
+
+--------------------------------------------------
+PASA VALORES A LAS FUNCIONES UTILIZANDO ARGUMENTOS
+--------------------------------------------------
+
+Los parametros son variables que actuan como marcadores de posicion para los valores
+que deben ser introducidos en una funcion cuando se llama. Cuando se define una 
+funcion, se define tipicamente junto con uno o mas parametros. Los valores reales que
+son introducidos (o "pasados") a una funcion se cuando se llama son conocidos como
+argumentos.
+
+    function testFun(param1, param2) {
+        console.log(param1, param2);
+    }
+
+Entoncs podemos llamar testFun asi: testFun("Hello", "World");. Hemos pasado dos
+argumentos de cadena, "Hello" y "World". Dentro de la funcion param1 sera igual
+a la cadena "Hello" y param2 sera igual a la cadena "World". Ten en cuenta que 
+podrias llamar a testFun otra vez con diferentes argumentos y los parametros tomarian
+el valor de los nuevos argumentos.
+
+ACTIVIDAD:
+
+    1. CREA UNA FUNCION LLAMADA "functonWithArgs" QUE ACEPTE DOS ARGUMENTOS Y MUESTRE
+    LA SUMA DE ELLOS EN LA CONSOLA.
+    2. LLAMA A LA FUNCION CON 2 NUMEROS COMO ARGUMENTOS.
+
+    function functionWithArgs(one, two){
+        console.log(one + two);
+    }
+
+    functionWithArgs(1, 2);
+    functionWithArgs(7, 9);
+
+--------------------------------------------------
+DEVUELVE UN VALOR DE UNA FUNCION UTILIZANDO RETURN
+--------------------------------------------------
+
+Podemos pasar valores a una función con argumentos. Puedes utilizar una declaración de devolución (return) para enviar un valor fuera de una función.
+
+Ejemplo:
+
+        function plusThree(num){
+            return num + 3;
+        }
+
+        const answer = plusThree(5);
+
+plusThree toma un argumento para num y devuelve un valor igual a num + 3.
+
+ACTIVIDAD:
+
+    - CREA UNA FUNCION "timesFive" QUE ACEPTE UN ARGUMENTO, LO MULTIPLIQUE POR 5
+    Y DEVUELVE AL NUEVO VALOR.
+
+    function timesFive(num){
+        return num * 5;
+    }

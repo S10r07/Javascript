@@ -1,0 +1,12 @@
+Tambien podemos multiplicar un numero por otro.
+JavaScript utiliza el simbolo "*" para mulitiplcar dos numeros.
+
+Ejemplo:
+
+        const myVar = 13 * 13;
+
+"myVar" ahora tendra el valor de 169.
+
+ACTIVIDAD: CAMBIE EL 0  PARA QUE EL PRODUCTO SEA IGUAL A 80.
+
+        const product = 8 * 0;                                    const product = 8 * 10;

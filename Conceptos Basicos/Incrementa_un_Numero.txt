@@ -1,0 +1,18 @@
+Puedes Facilmente incrementar o sumar uno a una variable con el
+operador "++".
+
+i++;
+
+es equivalente a
+
+i = i + 1;
+
+Nota: Toda la linea se convierte en "i++", eliminando la 
+necesidad del signo de igualdad.
+
+ACTIVIDAD: CAMBIE EL CODIGO PARA USAR EL OPERADOR ++ en "myVar".
+
+        let myVar = 87;
+
+        // Cambia solo el código debajo de esta línea
+        myVar = myVar + 1;               myVar++;

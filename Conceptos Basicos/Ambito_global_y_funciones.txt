@@ -1,0 +1,37 @@
+En JavaScript, el ambito se refiere a la visibilidad de las variables. Las variables
+definidas fuera de un bloque de funcion tienen un ambito global. Esto significa que
+pueden ser obesarvadas desde cualquier lugar en tu codigo.
+
+Las variables que se declaran sin palabras clave "let" o "const" se crean automaticamente
+en el ambito "global". Esto puede crear consecuencias no intencionadas en cualquier lugar
+de tu codigo o al volver a ejecutar una funcion. Siempre debes declarar tus variables con
+"let" o "const".
+
+ACTIVIDAD:
+
+    - USANDO "let o "const" DECLARA UNA VARIABLE GLOBAL LLAMADA "myGlobal" FUERA DE CUALQUIER
+    FUNCION. INICIALIA CON UN VALOR DE 10.
+    - DENTRO DE LA FUNCION "fun1", ASIGNA 5 A "oopsGlobal" SIN USAR LA PALABRA CLAVE "let" o
+    "const".
+
+    // Declara la variable myGlobal debajo de esta línea
+    const myGlobal = 10;
+    let oopsGlobal;
+
+    function fun1() {
+        // Asigna 5 a oopsGlobal aquí
+        oopsGlobal = 5;
+    }
+
+    // Cambia solo el código encima de esta línea
+
+    function fun2() {
+        var output = "";
+        if (typeof myGlobal != "undefined") {
+            output += "myGlobal: " + myGlobal;
+        }
+        if (typeof oopsGlobal != "undefined") {
+            output += " oopsGlobal: " + oopsGlobal;
+        }
+        console.log(output);
+    }

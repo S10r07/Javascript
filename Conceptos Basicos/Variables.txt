@@ -1,0 +1,32 @@
+En informatica, los datos son cualquier cosa que tenga sentido para la computadora.
+JavaScript proporciona 8 tipos de datos diferentes, lo cuales son:
+
+        - undefined
+        - null
+        - boolean
+        - string
+        - symbol
+        - bigint
+        - number
+        - object
+
+Por ejemplo, las computadoras distinguen entre numeros, como el numero 12 y cadenas(string), tales como "12", "dog", o "123 cats", 
+que son colecciones de caracteres. Las computadoras puedes realizar operaciones matematicas en un numero, pero no en una cadena.
+
+Las variables permiten a los ordenadores almacenar y manipular datos de forma dinamica. Hacen esto usando una "etiqueta" para apuntar
+a los datos en lugar de usar los datos en si. Cualquiera de las 8 tipos de datos puede almacenarse en una variable.
+
+Las variables son similares a las variables x, y que se usan en matematicas, lo que significa que son un nombre simple para representar
+los datos a los queremos hacer referencia. Las variables de computadora difieren de las variables matematicas en que puede almacenar
+diferentes valores en diferentes momentos.
+
+Le decimos a JavaScript que cree o declare una variable poniendo la palabra clave "var" delante de ella, asi:
+
+        var ourName;
+
+Crea una variable llamada ourName. En JavaScript terminamos las sentencias con un ";". Los nombres de las variables pueden estar formados
+por numeros, letras y "$" o "_", pero no pueden contener espacios ni empezar con un numero.
+
+ACTIVIDAD: UTILIZA LA PALABRA CLAVE "var" PARA CREAR UNA VARIABLE LLAMADA "myName".
+
+        var myName;

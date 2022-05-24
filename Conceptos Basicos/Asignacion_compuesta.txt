@@ -1,0 +1,99 @@
+-------------------------------------------
+ASIGNACION COMPUESTA CON ADICION AUMENTADA
+-------------------------------------------
+
+En la programacion, es comun utilizar asignaciones para modificar el 
+contenido de una variable. Recuerde que todo lo que esta a la derecha
+del signo de igualdad se evalua primero, asi que podemos decir:
+
+        myVar = myVar + 5;
+
+para sumar 5 a "myVar". Dado que se trata de un patron tan comun, hay
+opreadores que hace tanto la operacion matematica como la asignacion en
+un solo paso.
+
+Uno de estos operadores es el operador "+=".
+
+        let myVar = 1;
+        myVar += 5;
+        console.log(myVar);
+
+Se mostrara un 6 en la consola.
+
+ACTIVIDAD: CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR +=
+
+        let a = 3;
+        let b = 17;
+        let c = 12;
+
+        a += 12;                        // a = a + 12;
+        b += 9;                         // b = 9 + b;
+        c += 7;                         // c = c + 7;
+
+
+-----------------------------------------
+ASIGNACION COMPUESTA CON RESTA AUMENTADA
+-----------------------------------------
+
+Al igual que el operador +=, -= resta un numero de una variable.
+
+        myVar = myVar - 5;
+
+le restara 5 de myVar. Esto se puede reescribir como:
+
+        myVar -= 5;
+
+ACTIVIDAD: CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR -=
+
+        let a = 11;
+        let b = 9;
+        let c = 3;
+
+        a -= 6;                          // a = a - 6;
+        b -= 15;                         // b = b - 15;
+        c -= 1;                          // c = c - 1;
+
+-------------------------------------------------
+ASIGNACION COMPUESTA CON MULTIPLICACION AUMENTADA
+-------------------------------------------------
+
+El operador *= multiplica una variable por un numero.
+
+        myVar = myVar * 5;
+
+se multiplica myVar por 5. Esto se puede reescribir coomo:
+
+        myVar *= 5;
+
+ACTIVIDAD: CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR *=
+
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *= 5;                                 // a = a * 5;
+b *= 3;                                 // b = 3 * b;
+c *= 10;                                // c = c * 10;
+
+
+-------------------------------------------
+ASIGNACION COMPUESTA CON DIVISION AUMENTADA
+-------------------------------------------
+
+El operador /= divide una variable entre otro numero.
+
+        myVar = myVar / 5;
+
+Dividira myVar por 5. Esto se puede reescribir como:
+
+        myVar /= 5;
+
+ACTIVIDAD: CONVIERTE LAS ASIGNACIONES DE a, b, c PARA UTILIZAR EL OPERADOR /=
+
+let a = 48;
+let b = 108;
+let c = 33;
+
+a /= 12;                                // a = a / 12;
+b /= 4;                                 // b = b / 4;
+c /= 11;                                // c = c / 11;

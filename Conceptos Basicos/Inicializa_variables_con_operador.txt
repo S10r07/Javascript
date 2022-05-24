@@ -1,0 +1,9 @@
+Es comun inicializar una variable a un valor inicial en la misma linea que esta declarada.
+
+        var myVar = 0;
+
+Esto crea una variable llamada myVar y le asigna el valor inicial de 0.
+
+ACTIVIDAD: DEFINE UNA VARIABLE a CON var E INICIALIZALA CON UN VALOR DE 9.
+
+        var a = 9;

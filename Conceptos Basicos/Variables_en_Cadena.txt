@@ -1,0 +1,14 @@
+Anteriormente utilizamos el siguiente codigo para declarar una variable:
+
+        var myName;
+
+Pero tambien puedes declarar una variable de cadena como esta:
+
+        var myName = "your name";
+
+"your name" es llamada una cadena literal. Una cadena literal o cadena es una serie de ceros o mas
+caracteres encerrados en comillas simples o dobles.
+
+ACTIVIDAD: 
+            - CREA 2 NUEVAS VARIABLES DE CADENA "myFirstName" Y "myLastName" Y ASIGNALE TU NOMBRE Y
+            APELLIDO, RESPECTIVAMENTE.

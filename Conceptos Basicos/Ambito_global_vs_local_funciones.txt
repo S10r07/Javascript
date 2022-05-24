@@ -1,0 +1,19 @@
+Es posible tener variables locales y globales con el mismo nombre. Cuando haces 
+esto, la variable local tiene precedencia sobre la variable global.
+
+Ejemplo:
+
+        const someVar = "Hat";
+
+        function myFun(){
+            const someVar = "Head";
+            return someVar;
+        }
+
+La funcion "myFun" devolvera la cadena "Head" por que esta esta presente la
+version local de la variable.
+
+ACTIVIDAD:
+
+    AGREGA UNA VARIABLE LOCAL A LA FUNCION myOutfit para sobreescribir el valor
+    de outerWear con la cadena "sweater".

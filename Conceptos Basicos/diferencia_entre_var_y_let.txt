@@ -1,0 +1,25 @@
+Uno de los mayores problemas con la declaracion de variables utilizando la palabra clave "var"
+es que tu puedes facilmente sobrescribir declaraciones de variables:
+
+        var camper = "Jame";
+        var camper = "David";
+        console.log(camper);
+
+En el codigo anterior, la variable "camper" se declara originalmente como "Jame", y se anula para ser
+"David". La consola despues muestra la cadena de texto "Davi".
+
+En una aplicacion pequenia, talvez no te encuentres con este tipo de problema. Pero a medida que tu
+codigo base sse haga mas grande, puedes ser que accidentalmente sobrescribas una variable que no tenias
+la intencion de hacer. Debido a que este comportamiento no causa un error, la busqueda y correccion de
+errores se vuelve mas dificil.
+
+Una palabra clave llamada "let" fue introducida en ES6, una actualizacion importante para JavaScript,
+para resolvereste problema potencial con la palabra clave "var". Aprenderas sobre otras caracteristicas
+de ES6 en desafios posteriores.
+
+Si reemplazas "var" por let en el codigo anterior, resultara en un error:
+
+        - let camper = "Jame";
+        - let camper = "David";  <--- error
+
+Asi que a diferencia de var, al usar let, una variable con el mismo nombre solo puede declararse una vez.

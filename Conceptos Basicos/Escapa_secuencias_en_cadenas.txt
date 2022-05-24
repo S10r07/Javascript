@@ -1,0 +1,39 @@
+Las comillas no son los únicos caracteres que pueden ser escapados dentro 
+de una cadena. Hay dos razones para usar caracteres de escape:
+
+    - Para permitir el uso de caracteres que de otra manera no te sería 
+    posible escribir, como un retorno de carro.
+
+    - Para permitirte representar múltiples comillas en una cadena sin que 
+    JavaScript malinterprete lo que quieres decir.
+
+
+            CODIGO              RESULTADO
+              
+              \'                comilla simple
+              \"                comilla doble
+              \\                barra invertida
+              \n                salto de línea
+              \r                retorno de carro
+              \t                tabulación
+              \b                limite de palabra
+              \f                fuente de formulario
+
+Ten en cuenta que la barra invertida en sí debe ser escapada para poder 
+mostrarla como una barra invertida.
+
+ACTIVIDAD:
+
+    - ASIGNA LAS SIGUIENTES TRES LINEAS DE TEXTO EN LA VARIBALE UNICA myStr
+    USANDO LA SECUENCIAS DE ESCAPE.
+
+        FirstLine
+            \SecondLine
+        ThirdLine
+
+    - NECESITARAS USAR SECUENCIAS DE ESCAPE PARA INSERTAR CORRECTAMENTE
+    LOS CARACTERES ESPECIALES.
+    TAMBIEN NECESITARAS SEGUIR EL ESPACIADO TAL Y COMO SE VE ARRIBA, SIN
+    ESPACIOS ENTRE SECUENCIAS DE ESCAPE O PALABRAS.
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Cambia esta línea

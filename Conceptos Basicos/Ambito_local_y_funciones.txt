@@ -1,0 +1,34 @@
+Las variables que se declaran dentro de una funcion, asi como los parametros de la
+funcion tienen un ambito local. Esto significa que solo son visibles dentro de esa
+funcion.
+
+Esta es una funcion "myTest" con una variable local llamada "loc".
+
+        function myTest(){
+            const loc = "foo";
+            console.log(loc);
+        }
+
+        myTest();
+        console.log(loc);
+
+La llamada a la función myTest() mostrará la cadena foo en la consola. La línea 
+console.log(loc) (fuera de la función myTest) lanzará un error, ya que loc no 
+está definido fuera de la función.
+
+ACTIVIDAD:
+
+    - EL EDITOR TIENE DOS console.log PARA AYUDARTE A VER LO QUE ESTA SUCEDIENDO
+    REVISA LA CONSOLA A MEDIDA QUE PROGRAMAS PARA VER OCMO CAMBIA. DECLARA UNA 
+    VARIABLE LOCAL "myVar" DENTRO DE "myLocalScope" Y EJECUTA PRUEBAS
+    
+    function myLocalScope() {
+    // Cambia solo el código debajo de esta línea
+    var myVar;
+    console.log('inside myLocalScope', myVar);
+    }
+    myLocalScope();
+
+    // Ejecuta y verifica la consola
+    // myVar no está definida afuera de myLocalScope
+    console.log('outside myLocalScope', myVar);

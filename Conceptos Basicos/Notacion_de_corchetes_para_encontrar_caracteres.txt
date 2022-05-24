@@ -1,0 +1,76 @@
+La notacion de corchetes es una forma de obtener un caracter en un
+indice(index) especifico dentro de una cadena de texto.
+
+La mayoria de lenguajes de programacion modernos, como JavaScript, no
+empiezan a contar desde 1 como lo hacen los humanos. Empiezan desde 0.
+Esto se conoce como indexacion basada en cero.
+
+Por ejemplo, el caracter en el indice 0 de la palabra "Charles" es "C".
+Asi que declaramos "const firstName = "Charles"", puedes obtener el valor
+de la primera letra de la cadena usandor firstName[0].
+
+Ejemplo:
+
+    const firstName = "Charles";
+    const firstLetter = firstName[0];
+
+"firstLetter" tendra una cadena con valor "C".
+
+ACTIVIDAD:
+
+    - UTILIZA NOTACION DE CORCHETES PARA ENCONTRAR EL PRIMER CARACTER
+    EN LA VARIABLE "lastName" Y ASIGNALO A "firstLetterOfLastName".
+
+    // Configuración
+    let firstLetterOfLastName = "";
+    const lastName = "Lovelace";
+
+    // Cambia solo el código debajo de esta línea
+    firstLetterOfLastName = lastName; // Cambia esta línea
+
+    firstLetterOfLastName = lastName2[0]
+
+-------------------------------------------------------------------------
+NOTACION DE CORCHETES PARA ENCONTRAR UN CARACTER ESPECIFICO EN UNA CADENA
+-------------------------------------------------------------------------
+
+Tambien puede susar notacion de corchetes para obtener el caracter en 
+otras posiciones dentro de una cadena.
+
+Recuerda que las computadoras empiezan a contar desde 0, asi que el primer
+caracter es en realidad el caracter cero.
+
+Ejemplo:
+
+    const firstName = "Charles";
+    const secondLetterOfFirstName = firstName[1];
+
+"secondLetterOfFirstName" tendra una cadena con valor "C".
+
+ACTIVIDAD:
+
+    - INTENTEMOS ESTABLECER "thirdLetterOfLastName" para que sea igual
+    a la tercera letra de la variable "lastName" usando notacion de corchetes.
+
+    // Configuración
+    const lastName = "Lovelace";
+
+    // Cambia solo el código debajo de esta línea
+    const thirdLetterOfLastName = lastName[2]       // const thirdLetterOfLastName = lastName;
+
+-----------------------------------------------------------------------
+NOTACION DE CORCHETES PARA ENCONTRAR EL ULTIMO CARACTEDR EN UNA CADENA
+-----------------------------------------------------------------------
+
+Con el fin de obtener la última letra de una cadena, puedes restar uno 
+a la longitud del texto.
+
+Por ejemplo, sí const firstName = "Ada", puedes obtener el valor de la última 
+letra de la cadena usando firstName[firstName.length - 1].
+
+Ejemplo:
+
+    const firstName = "Ada";
+    const lastLetter = firstName[firstName.length - 1];
+
+"lastLetter" tendra una cadena con valor "a".

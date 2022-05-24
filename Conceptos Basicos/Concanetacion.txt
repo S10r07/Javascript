@@ -1,0 +1,102 @@
+En JavaScript, cuando el operador "+" se utiliza con un valor de 
+cadena(String), se le llama operador de concanetacion. Puedes construir
+una nueva cadena a partir de otras cadenas concatenandolas juntas.
+
+Ejemplo:
+
+    'My name is Alan,' + ' I concatenate.'
+
+Nota: Ten cuidado con los espacios. La concanetacion no agrega espacios
+entre las cadenas concatenadas, asi que tendras que aniadirlos por tu cuenta.
+
+Ejemplo:
+
+    const ourStr = "I come First. " + "I come Second.";
+
+La cadena "I come First. I come Second." se mostrara en la consola.
+
+ACTIVIDAD:
+
+    - CONSTRUYE myStr A PARTIR DE LAS CADENAS This is the start. Y
+    This is the end. UTILIZANDO EL OPERADOR +. ASEGURATE DE INCLUIR
+    UN ESPACIO ENTRE LAS DOS CADENAS.
+
+    const myStr = "This is the start. " + "This is the end"; // Cambia esta línea
+
+------------------------------------
+CONCANETA CADENAS CON EL OPERADOR +=
+------------------------------------
+
+También podemos utilizar el operador += para concatenar una cadena al final de una 
+variable de cadena existente. Esto puede ser muy útil para romper una cadena larga 
+en varias líneas.
+
+Nota: Ten cuidado con los espacios. La concatenación no añade espacios entre las 
+cadenas concatenadas, así que tendrás que añadirlos por tu cuenta.
+
+Ejemplo:
+
+    let ourStr = "I come first. ";
+    ourStr += "I come second.";
+
+ourStr ahora tiene un valor de la cadena "I come first. I come second.".
+
+ACTIVIDAD:
+
+    - CONSTRUYE myStr EN VARIAS LINEAS CONCATENANDO ESTAS 2 CADENAS: This is the
+    first sentence. Y This is the second sentence. UTILIZANDO EL OPERADOR +=.
+    UTILIZA EL OPERADOR += SIMILAR COMO SE MUESTRA EN EL EJEMPLO YA ASEGURATE
+    DE INCLUIR UN ESPACIO ENTRE LAS DOS CADENAS. COMIENZA ASIGNANDO LA PRIMERA
+    CADENA myStr, LUEGO AGREGA LA SEGUNDA CADENA.
+
+
+    let myStr = "This is the first sentence. ";
+    myStr += "This is the second sentence.";
+
+-------------------------------
+CONSTRUYE CADENAS CON VARIABLES
+-------------------------------
+
+A veces necesitarás construir una cadena, al estilo Mad Libs. Al usar el operador 
+de concatenación (+), puedes insertar una o más variables en una cadena que estés 
+construyendo.
+
+Ejemplo:
+
+    const ourName = "freeCodeCamp";
+    const ourStr = "Hello, our name is " + ourName + ", how are you?";
+
+ourStr tendrá como valor la cadena Hello, our name is freeCodeCamp, how are you?.
+
+ACTIVIDAD:
+
+    - ESTABLECE myName EN UNA CADENA IGUAL A TU NOMBRE Y CONSTRUYE myStr con myName
+    ENTRE LAS CADENAS "My name is" Y "and I am well!".
+
+    const myName = "Angel";
+    const myStr = "My name is " + myName + " and I am well!";
+
+---------------------------
+AGREGA VARIABLES A CADENAS
+---------------------------
+
+Al igual que podemos construir una cadena sobre múltiples líneas a partir de las 
+cadenas literales, también podemos añadir variables a una cadena usando el 
+operador "más igual" (+=).
+
+Ejemplo:
+
+        const anAdjective = "awesome!";
+        let ourStr = "freeCodeCamp is ";
+        ourStr += anAdjective;
+
+ourStr tendrá el valor de freeCodeCamp is awesome!.
+
+ACTIVIDAD:
+
+    - ESTABLECE "someADjective" A UNA CADENA DE AL MENOS 3 CARACTERES Y agregando
+    a "myStr" USANDO EL OPERADOR +=.
+
+    const someAdjective = "abc";
+    let myStr = "Learning to code is ";
+    myStr += someAdjective;

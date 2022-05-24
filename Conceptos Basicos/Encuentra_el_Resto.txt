@@ -1,0 +1,25 @@
+El operador de resto % entrega el resto de la division entre dos numeros.
+
+Ejemplo:
+
+    5 % 2 = 1 por que
+    Math.floor(5/2) = 2 (Cociente)
+    2 * 2 = 4
+    5 - 4 = 1 (Resto)
+
+Uso:
+
+En matematicas, un numero se puede comprobar para saber si es par o impar
+revisando el resto de la division del numero por 2.
+
+17 % 2 = 1 (17 es impar)
+48 % 2 = 0 (48 es par)
+
+Nota: El operador de resto es a veces incorrectamente referido como el 
+operador de modulo. Es muy similar, pero no funciona adecuadamente con
+numeros negativos.
+
+ACTIVIDAD: ESTABLECE "remainder" IGUAL AL RESTO 11 DIVIDIDO ENTRE 3 USANDO
+EL OPERADOR DE RESTO(%).
+
+const remainder = 11 % 3;           // const remainder = 0;

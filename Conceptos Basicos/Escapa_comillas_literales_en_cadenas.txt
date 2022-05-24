@@ -1,0 +1,23 @@
+Cuando estas definiendo una cadena debes comenzar y terminar con una 
+comillasimple o doble. Que pasa cuando necesitas una comilla literal 
+"" o '' dentro de tu cadena?.
+
+En JavaScript, puedes escapar una comilla de considerarse un final de
+cadena colocando una barra invertida(\) antes de la comilla.
+
+        const sampleStr = "   He said, \"Don't\".   ";
+
+Esto indica a JavaScript que la siguiente comilla no es el final de la
+cadena, sino que deberia aparacer dentro de la cadena. Asi que si
+imprimieras esto en la consola, obtendrias:
+
+        He said, "Don't".
+
+ACTIVIDAD:
+
+        - USA BARRAS INVERTIDAS PARA ASIGNAR UNA CADENA A LA VARIABLE myStr
+        DE MODO QUE SI LO IMPRIMIERAS EN LA CONSOLA, VERIAS: 
+        I'm a "double quoted" string inside "double quotes".
+
+        
+const myStr = "I'm a \"double quoted\" string inside \"double quotes\"."
