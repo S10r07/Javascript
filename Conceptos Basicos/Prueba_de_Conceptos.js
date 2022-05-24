@@ -179,3 +179,125 @@ const myArray4 = [18, 64, 99];
 
 // Cambia solo el código debajo de esta línea
 myArray4[0] = 45;
+
+// USA LA NOTACION DE CORCHETES PARA SELECCIONAR UN ELEMENTO DE myArray 
+// de tal manera que myData sea igual a 8.
+
+const myArray5 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+];
+
+const myData5 = myArray5[2][1];
+
+// EMPUJA ["dog", 3] AL FINAL DE LA VARIABLE myArray
+
+// Configuración
+const myArray6 = [["John", 23], ["cat", 2]];
+
+// Cambia solo el código debajo de esta línea
+myArray6.push(["dog", 3]);
+console.log(myArray6);
+
+// UTILIZA LA FUNCION .pop() PARA ELIMINAR EL ULTIMO ELEMENTO DE myArray,
+// Y ASIGNA EL VALOR SACADO A UNA VARIABLE NUEVO "removeFromMyArray".
+
+// Configuración
+const myArray9 = [["John", 23], ["cat", 2]];
+
+// Cambia solo el código debajo de esta línea
+const removedFromMyArray = myArray9.pop();
+
+// UTILIZA LA FUNCION ".shift()" PARA ELIMINAR EL PRIMER ELEMENTO DE
+// myArray, Y ASIGNA EL VALOR "DESPLAZADO" A UNA VARIABLE NUEVO "removedFromMyArray".
+
+// Configuración
+const myArray7 = [["John", 23], ["dog", 3]];
+
+// Cambia solo el código debajo de esta línea
+const removedFromMyArray7 = myArray7.shift();
+
+// AGREGA ["Paul", 35] AL PRINCIPIO DE LA VARIABLE "myArray" usando "unshift()".
+    
+// Configuración
+const myArray0 = [["John", 23], ["dog", 3]];
+myArray0.shift();
+
+// Cambia solo el código debajo de esta línea
+myArray0.unshift(["Paul", 35]);
+
+// DEBE HABER AL MENOS 5 SUB-ARREGLOS EN LA LISTA.
+
+const myList = [["mouse", 1], ["pantalla", 2], ["teclado", 1], ["grafica", 1], ["almuadilla", 1]];
+
+// FUNCIONES
+
+// 1. CREA UNA FUNCION LLAMADA "reusableFunction" QUE IMPRIMA "Hello World"
+// 2. LLAMA A LA FUNCION "reusableFunction".
+
+function reusableFunction(){
+    console.log("Hello World");
+}
+
+reusableFunction();
+
+
+function functionWithArg(parametroOne, parametroTwo){
+    console.log(parametroOne + parametroTwo);
+  }
+  
+functionWithArg(1, 2);
+functionWithArg(7, 9);
+
+// CREA UNA FUNCION "timesFive" QUE ACEPTE UN ARGUMENTO, LO MULTIPLIQUE POR 5
+// Y DEVUELVE AL NUEVO VALOR.
+
+function timesFive(num){
+    return num * 5;
+}
+
+// USANDO "let o "const" DECLARA UNA VARIABLE GLOBAL LLAMADA "myGlobal" FUERA DE CUALQUIER
+// FUNCION. INICIALIA CON UN VALOR DE 10.
+// DENTRO DE LA FUNCION "fun1", ASIGNA 5 A "oopsGlobal" SIN USAR LA PALABRA CLAVE "let" o
+// "const".
+
+// Declara la variable myGlobal debajo de esta línea
+const myGlobal = 10;
+let oopsGlobal;
+
+function fun1() {
+    // Asigna 5 a oopsGlobal aquí
+    oopsGlobal = 5;
+}
+
+// Cambia solo el código encima de esta línea
+
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += " oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
+
+// EL EDITOR TIENE DOS console.log PARA AYUDARTE A VER LO QUE ESTA SUCEDIENDO
+// REVISA LA CONSOLA A MEDIDA QUE PROGRAMAS PARA VER OCMO CAMBIA. DECLARA UNA 
+// VARIABLE LOCAL "myVar" DENTRO DE "myLocalScope" Y EJECUTA PRUEBAS
+
+function myLocalScope() {
+    // Cambia solo el código debajo de esta línea
+    var myVar;
+    console.log('inside myLocalScope', myVar);
+}
+
+myLocalScope();
+
+// Ejecuta y verifica la consola
+// myVar no está definida afuera de myLocalScope
+
+console.log('outside myLocalScope', myVar);  

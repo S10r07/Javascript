@@ -94,3 +94,31 @@ adicional de corchetes se refiere al siguiente nivel de entradas.
 
 Ejemplo:
 
+    const arr = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9],
+        [[10, 11, 12], 13, 14]
+    ];
+
+    arr[3];
+    arr[3][0];
+    arr[3][0][1];
+
+arr[3]          es [[10, 11, 12], 13, 14]
+arr[3][0]       es [10, 11, 12]
+arr[3][0][1]    es 11.
+
+ACTIVIDAD:
+
+    - USA LA NOTACION DE CORCHETES PARA SELECCIONAR UN ELEMENTO DE myArray 
+    de tal manera que myData sea igual a 8.
+
+    const myArray = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+    ];
+
+    const myData = myArray[2][1];

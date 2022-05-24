@@ -1,0 +1,24 @@
+"pop()" siempre elimina el ultimo elemento de un arreglo.
+¿Qué tal si quieres eliminar el primero?
+
+Ahi es donde entra ".shit()". Funciona igual que el .pop(), excepto que
+elimina el primer elemento en lugar del ultimo.
+
+Ejemplo:
+
+        const ourArray = ["Stimpson", "J", ["cat"]];
+        const removedFromOurArray = ourArray.shift();
+
+"removedFromMyArray" tendra una cadena con valor "Stimpson".
+"ourArray" tendra una cadena con valor "["J", ["cat"]]".
+
+ACTIVIDAD:
+
+    - UTILIZA LA FUNCION ".shift()" PARA ELIMINAR EL PRIMER ELEMENTO DE
+    myArray, Y ASIGNA EL VALOR "DESPLAZADO" A UNA VARIABLE NUEVO "removedFromMyArray".
+
+    // Configuración
+    const myArray = [["John", 23], ["dog", 3]];
+
+    // Cambia solo el código debajo de esta línea
+    const removedFromMyArray = myArray.shift();

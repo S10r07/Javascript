@@ -1,0 +1,23 @@
+Otra manera de cambiar los datos de un arreglo es con la funcion .pop().
+.pop() se utiliza para sacar un valor del final de un arreglo. Podemos
+almacenar este valor sacado asignandolo a una variable. En otras palabras
+.pop() elimina el ultimo elemento de un arreglo y devuelve el ese elemento.
+
+Cualquier tipo de entrada puede ser sacada de un arreglo: numeros, cadenas,
+incluso arreglos aninados.
+
+        const threeArr = [1, 2, 3];
+        const oneDown = threeArr.pop();
+        console.log(oneDown);                   // 3
+        console.log(threeArr);                  // [1, 2]
+
+ACTIVIDAD:
+
+    - UTILIZA LA FUNCION .pop() PARA ELIMINAR EL ULTIMO ELEMENTO DE myArray,
+    Y ASIGNA EL VALOR SACADO A UNA VARIABLE NUEVO "removeFromMyArray".
+
+    // Configuración
+    const myArray = [["John", 23], ["cat", 2]];
+
+    // Cambia solo el código debajo de esta línea
+    const removedFromMyArray = myArray.pop()
